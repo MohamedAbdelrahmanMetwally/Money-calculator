@@ -1,0 +1,59 @@
+<layout>
+    <data>
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".firstPage.MainActivity">
+        <EditText
+            android:id="@+id/etLoanAmount"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:hint="loan amount"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <EditText
+            android:id="@+id/etBenefitPercentage"
+            android:layout_width="0dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10"
+            android:hint="benefit Percentage"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="@+id/etLoanAmount"
+            app:layout_constraintStart_toStartOf="@+id/etLoanAmount"
+            app:layout_constraintTop_toBottomOf="@+id/etLoanAmount" />
+        <EditText
+            android:id="@+id/etRepaymentPeriod"
+            android:layout_width="0dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10"
+            android:hint="repayment period(months)"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="@+id/etBenefitPercentage"
+            app:layout_constraintStart_toStartOf="@+id/etBenefitPercentage"
+            app:layout_constraintTop_toBottomOf="@+id/etBenefitPercentage" />
+        <Button
+            android:id="@+id/btnShowExpenses"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="showExpenses"
+            app:layout_constraintEnd_toEndOf="@+id/etRepaymentPeriod"
+            app:layout_constraintStart_toStartOf="@+id/etRepaymentPeriod"
+            app:layout_constraintTop_toBottomOf="@+id/etRepaymentPeriod" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
