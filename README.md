@@ -42,26 +42,23 @@ Built with **Java**, **MVVM architecture**, and **Android Data Binding**.
 
 
 
-##💡 Future Improvements:
-      🌙 Add Dark Mode.
-      📈 Show loan amortization graph
-     💾 Save loan history.
-
-    🌍 Add multi-language support.
-
-   🔄 Real-time calculation while typing.
+## 💡 Future Improvements:
+     -**🌙 Add Dark Mode.**
+     -**📈 Show loan amortization graph.**
+     -**💾 Save loan history.**
+    -**🌍 Add multi-language support.**
+    -**🔄 Real-time calculation while typing.**
 
 
 
 
 
-👨‍💻 Developer
-   Name: Mohamed Abdelrahman Metwally
+## 👨‍💻 Developer
+   -**Name: Mohamed Abdelrahman Metwally**
+   -**📧 Email: mnafe44@gmail.com**
+  -**🐙 GitHub: MohamedAbdelrahmanMetwally**
+   -**git clone https://github.com/MohamedAbdelrahmanMetwally/MoneyCalculatorApp.git**
 
-   📧 Email: mnafe44@gmail.com
-
-  🐙 GitHub: MohamedAbdelrahmanMetwally
-   git clone https://github.com/MohamedAbdelrahmanMetwally/MoneyCalculatorApp.git
 
 
 
