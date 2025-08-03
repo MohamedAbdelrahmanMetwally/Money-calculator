@@ -39,7 +39,10 @@ Built with **Java**, **MVVM architecture**, and **Android Data Binding**.
 4.Run the app on a real device or emulator.
 
 
-💡 Future Improvements:
+
+
+
+##💡 Future Improvements:
 
 🌙 Add Dark Mode.
 
@@ -51,6 +54,10 @@ Built with **Java**, **MVVM architecture**, and **Android Data Binding**.
 
 🔄 Real-time calculation while typing.
 
+
+
+
+
 👨‍💻 Developer
 Name: Mohamed Abdelrahman Metwally
 
@@ -58,5 +65,6 @@ Name: Mohamed Abdelrahman Metwally
 
 🐙 GitHub: MohamedAbdelrahmanMetwally
    git clone https://github.com/MohamedAbdelrahmanMetwally/MoneyCalculatorApp.git
+
 
 
