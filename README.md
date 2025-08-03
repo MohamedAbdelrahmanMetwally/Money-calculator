@@ -37,7 +37,10 @@ Built with **Java**, **MVVM architecture**, and **Android Data Binding**.
 3.Sync Project with Gradle Files.
 
 4.Run the app on a real device or emulator.
-💡 Future Improvements
+
+
+💡 Future Improvements:
+
 🌙 Add Dark Mode.
 
 📈 Show loan amortization graph.
@@ -54,5 +57,6 @@ Name: Mohamed Abdelrahman Metwally
 📧 Email: mnafe44@gmail.com
 
 🐙 GitHub: MohamedAbdelrahmanMetwally
-   git clone https://github.com/YourUsername/MoneyCalculatorApp.git
+   git clone https://github.com/MohamedAbdelrahmanMetwally/MoneyCalculatorApp.git
+
 
