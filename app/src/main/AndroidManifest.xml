@@ -13,13 +13,7 @@
         android:theme="@style/Theme.MoneyCalulator"
         tools:targetApi="31">
         <activity
-            android:name=".ShowingGraphs"
-            android:exported="false" />
-        <activity
-            android:name=".secondPage.ShowingFigures"
-            android:exported="false" />
-        <activity
-            android:name=".firstPage.MainActivity"
+            android:name=".Main.ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
