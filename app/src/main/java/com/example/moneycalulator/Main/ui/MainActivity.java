@@ -37,18 +37,29 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         binding.btnShowExpenses.setOnClickListener(v -> {
-            if(!binding.etLoanAmount.getText().toString().isEmpty() || binding.etBenefitPercentage.getText().toString().isEmpty() || binding.etRepaymentPeriod.getText().toString().isEmpty()){
-                if(binding.etLoanAmount.getText().toString().isEmpty()){
+            if (binding.etLoanAmount.getText().toString().isEmpty() ||
+                    binding.etBenefitPercentage.getText().toString().isEmpty() ||
+                    binding.etRepaymentPeriod.getText().toString().isEmpty()) {
+                if (binding.etLoanAmount.getText().toString().isEmpty()) {
                     binding.tilLoanAmount.setError("Loan amount is required");
+                } else {
+                    binding.tilLoanAmount.setError(null);
                 }
-                if(binding.etBenefitPercentage.getText().toString().isEmpty()){
+                if (binding.etBenefitPercentage.getText().toString().isEmpty()) {
                     binding.tilBenefitPercentage.setError("Benefit percentage is required");
+                } else {
+                    binding.tilBenefitPercentage.setError(null);
                 }
-                if(binding.etRepaymentPeriod.getText().toString().isEmpty()){
+                if (binding.etRepaymentPeriod.getText().toString().isEmpty()) {
                     binding.tilRepaymentPeriod.setError("Repayment period is required");
+                } else {
+                    binding.tilRepaymentPeriod.setError(null);
                 }
                 return;
             }
+            binding.tilLoanAmount.setError(null);
+            binding.tilBenefitPercentage.setError(null);
+            binding.tilRepaymentPeriod.setError(null);
             viewModel.setLoanAmount(binding.etLoanAmount.getText().toString());
             viewModel.setBenefitPercentage(binding.etBenefitPercentage.getText().toString());
             viewModel.setRepaymentPeriod(binding.etRepaymentPeriod.getText().toString());
