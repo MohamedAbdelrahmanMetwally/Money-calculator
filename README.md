@@ -1,7 +1,7 @@
 # 💰 Money Calculator App
 
 A simple and modern Android application to **calculate loan payments** including monthly installment, total payment, and total interest.  
-Built with **Java**, **MVVM architecture**, and **Android Data Binding**.
+Built with **Java**, **MVVM architecture**, **MPAndroidChart**,and **Android Data Binding**.
 
 ---
 
@@ -25,7 +25,7 @@ Built with **Java**, **MVVM architecture**, and **Android Data Binding**.
 - **Data Binding** – To directly bind UI to ViewModel.
 - **JUnit** – Unit testing for loan calculations.
 - **ConstraintLayout** – Modern and responsive UI design.
-
+- **MPAndroidChart** - for adding the pie chart.
 ---
 
 ## 🚀 How to Run
@@ -58,6 +58,7 @@ Built with **Java**, **MVVM architecture**, and **Android Data Binding**.
    -**📧 Email: mnafe44@gmail.com**
   -**🐙 GitHub: MohamedAbdelrahmanMetwally**
    -**git clone https://github.com/MohamedAbdelrahmanMetwally/MoneyCalculatorApp.git**
+
 
 
 
